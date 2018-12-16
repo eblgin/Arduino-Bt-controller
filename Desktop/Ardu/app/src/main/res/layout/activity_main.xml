@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.bilginsoft.user.ardu.MainActivity"
+    android:background="#000"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+
+        android:id="@+id/lsy2"
+        android:layout_alignParentTop="true"
+
+        >
+
+        <Button
+            android:layout_width="130px"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/btn2"
+            android:text="Up"
+            android:layout_marginBottom="100px"
+            android:background="@drawable/ucgen1"
+            />
+
+        <Button
+            android:layout_width="130px"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/btn3"
+            android:text="Dn"
+            android:background="@drawable/ucgen1"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/lsy1"
+        android:layout_alignParentBottom="true"
+
+        >
+        <Button
+            android:layout_width="130px"
+            android:layout_marginLeft="200px"
+            android:layout_height="wrap_content"
+            android:id="@+id/btn"
+            android:text="Lt"
+            android:layout_marginRight="100px"
+            android:background="@drawable/ucgen1"
+            />
+        <Button
+            android:layout_width="130px"
+
+            android:layout_height="wrap_content"
+            android:id="@+id/btn1"
+            android:text="Rt"
+            android:background="@drawable/ucgen1"
+            />
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/lsy2"
+        android:id="@+id/txtv"
+        android:textColor="#fff"
+        />
+</RelativeLayout>
